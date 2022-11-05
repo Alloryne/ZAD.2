@@ -5,6 +5,7 @@
   #include<cstdlib>
   #include<cstdint>
   #include<cstddef>
+  #include <iostream>
   using hash_function_t = uint64_t(*)(uint64_t const *, size_t);
   extern "C" {
     namespace jnp1 {
